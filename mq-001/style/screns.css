@@ -1,0 +1,13 @@
+@charset "UTF=8";
+
+/*screns*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
