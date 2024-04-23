@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+@media print{
+    main h1{font-family: Arial, Helvetica, sans-serif;}
+    
+    main{
+        border: 2px solid black;
+    }
+}
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 640px) {
+    /* celular*/
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media screen and (min-width: 768px) {
+    /*tablete*/
+    body{
+        background-image: url(../image/back-tablet.jpg);
+    }
+    main img#phone{display: none;}
+    main img#tablet{ display: block;}
+    main img#print{display: none;}
+    main img#pc{ display: none;}
+    main img#tv{ display: none;}
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+    /*pc*/
+    body{
+        background-image: url(../image/back-pc.jpg);
+    }
+    main img#phone{display: none;}
+    main img#tablet{display: none;}
+    main img#print{display: none;}
+    main img#pc{display: block;}
+    main img#tv{display: none;}
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 1280px) {
+    /*tv*/    
+    body{
+        background-image: url(../image/back-tv.jpg);}
+
+    main img#phone{display: none;}
+    main img#tablet{ display: none;}
+    main img#print{display: none;}
+    main img#pc{ display: none;}
+    main img#tv{ display: block;}
+    }
+}

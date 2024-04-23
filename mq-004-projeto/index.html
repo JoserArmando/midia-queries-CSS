@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <span  id="menu-1" class="material-symbols-outlined" onclick="ClickMenu(document.getElementById('itens'))">
+            menu
+        </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">opição 1</a></li>
+                <li><a href="#">opição 2</a></li>
+                <li><a href="#">opição 3</a></li>
+                <li><a href="#">opição 4</a></li>
+                <li><a href="#">opição 5</a></li>
+            </ul>
+        </menu>        
+    </header>
+    <main>
+        <h2>testando media queries</h2>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nam quibusdam ullam quasi reiciendis esse inventore nihil odit accusantium ipsam veritatis quisquam quia vero eligendi excepturi earum, beatae necessitatibus quae?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores commodi odio magni eum numquam, culpa explicabo officia omnis ea recusandae aut expedita quibusdam natus tenetur molestias, voluptate, sapiente sequi enim?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus ad at esse magni possimus aliquid? Iste ipsa explicabo iusto recusandae nihil. Aliquid autem illo cumque beatae sunt commodi accusantium totam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio laudantium atque. Nihil natus ratione, eius quis iure commodi. Nemo omnis ullam aliquam ratione enim rerum, nisi voluptas iure quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui nam quo ipsum nemo possimus magni veritatis blanditiis totam iure minima provident quisquam consectetur tempora, voluptatibus ipsam commodi veniam libero vitae.</p>
+        </article>
+        <script>
+            function ClickMenu(element) {
+                if (element.style.display == 'block') {
+                    element.style.display = 'none';
+                } else {
+                    element.style.display = 'block';
+                }
+            }
+        </script>
+        
+        
+    </main>
+</body>
+</html>
